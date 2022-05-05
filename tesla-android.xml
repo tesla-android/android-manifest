@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="tesla-android" fetch="https://github.com/tesla-android/" />
+  <remote name="github" fetch="https://github.com/" />  
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
+
+  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="main" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="main" />
+
+  <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.0"/>
+
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+</manifest>
