@@ -2,6 +2,12 @@
 
 This version is based on Android 12L (Tiramisu), GloDroid version 0.7.1 (https://github.com/GloDroid/glodroid_manifest)
 
+Please refer to https://tesla-android.gapinski.eu for release notes, hardware requirements and the install guide.
+
+#### Please consider supporting the project: 
+
+[Donations](https://tesla-android.gapinski.eu/donations)
+
 ### Supported platforms:
 - Raspberry Pi 4b
 
