@@ -5,10 +5,13 @@
   <remote name="opengapps" fetch="https://github.com/opengapps/"  />
   <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
 
-  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="c70f542747500d7f7dd13ee9df266c3eec912517" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="854d4ae5d34c2ce34fd3cf05e9ae2f658b1cfcd6" />
+  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="8d01e0358101bad8d0299e1ceec7ec36d3017c0c" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="ac3ea877e3ea770dc998be78ae503b3353498978" />
+  <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="51410bc5de7bfe0e5cd142da7b5628787b4c9896" />
 
-  <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.0"/>
+  <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
+
+  <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.1"/>
 
   <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
