@@ -2,21 +2,36 @@
 <manifest>
   <remote name="tesla-android" fetch="https://github.com/tesla-android/" />
   <remote name="github" fetch="https://github.com/" />  
-  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
-  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
 
-  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="c70f542747500d7f7dd13ee9df266c3eec912517" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="854d4ae5d34c2ce34fd3cf05e9ae2f658b1cfcd6" />
-
-  <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.0"/>
-
-  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/crosvm" />
+  <remove-project name="platform/external/mesa3d" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/packages/modules/Virtualization" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="device/generic/car" />
+
+  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="6c8cd95817f2b1ef28c985979f32f75a049d10c1" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="8bb124de891b1b88fa4bf677d85a94ec7d2e7c11" />
+  <project path="build/soong" remote="tesla-android" name="android-build-soong.git" revision="995954236866a20b6f33885679b34e3cf51b12fa" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="external/crosvm" remote="tesla-android" name="android-external-crosvm.git" revision="32ef5e64d5ef892650a0e2e117e709d6ec7e60cf" />
+  <project path="external/mesa3d" remote="tesla-android" name="android-external-mesa3d.git" revision="47064ca741e9aa971faba7e0ff5d3ae371aef766" />
+  <project path="external/u-boot" remote="tesla-android" name="android-external-u-boot.git" revision="262f6b8f448491e53ad8e3aa73a02063ed558dcb" />
+  <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="a99e8e4e7ef19c736f42df5647212acf73baff49" />
+  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="d91ad944e8765f5306989feaee98708d8ed1904d" />
+  <project path="mac-toolchains" remote="tesla-android" name="android-mac-toolchains.git" revision="51ff86a9a048beb8473eb01158ff78c31658f657" />
+  <project path="packages/modules/Permission" remote="tesla-android" name="android-modules-permission.git" revision="45108d2abafff65d7445757c823e3e7519cb9699" />
+  <project path="packages/modules/Virtualization" remote="tesla-android" name="android-packages-modules-virtualization.git" revision="25baf3d76dc99595d5007ae436d34343983a2c63" />
+  <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
+  
+  <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
+  <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.1"/>
+  <project path="vendor/partner_gms" remote="github" name="lineageos4microg/android_vendor_partner_gms" revision="025565ee540b74f9c42e03255f12a0e3494472e7"/>
 </manifest>
