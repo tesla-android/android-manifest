@@ -9,13 +9,22 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/Wifi" />
+
   <remove-project name="device/generic/car" />
 
-  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="6c8cd95817f2b1ef28c985979f32f75a049d10c1" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="8bb124de891b1b88fa4bf677d85a94ec7d2e7c11" />
+  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="3ec1e1f898458f8e2f5fd3d76fa04cc783f3fd0d" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="2d8e160e5aeea56d2898061b5e4d5a6eecdb1baa" />
   <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="a99e8e4e7ef19c736f42df5647212acf73baff49" />
-  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="d91ad944e8765f5306989feaee98708d8ed1904d" />
+  <project path="external/mjpg-streamer" remote="tesla-android" name="android-external-mjpg-streamer.git" revision="eb95ee99e86a4e52cd701701159f026b7318d52a" />
+  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="f1f0739d950c129c5b3d96626cd210c0000bcf9c" />
+  <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="25fb3b5e2f10029f3c4113b2094c12d801491d85" />
   <project path="packages/modules/Permission" remote="tesla-android" name="android-modules-permission.git" revision="45108d2abafff65d7445757c823e3e7519cb9699" />
+  <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="ee4c84b3a195774b13cf48048f46a2ce3a41ce27" />
+  <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="222f40ebcade3ca14df0f119b45f8b7c9d042aab" />
+
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
   
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
