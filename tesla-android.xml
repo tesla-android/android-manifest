@@ -16,10 +16,10 @@
   <remove-project name="device/generic/car" />
 
   <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="3ec1e1f898458f8e2f5fd3d76fa04cc783f3fd0d" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="2d8e160e5aeea56d2898061b5e4d5a6eecdb1baa" />
-  <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="a99e8e4e7ef19c736f42df5647212acf73baff49" />
-  <project path="external/mjpg-streamer" remote="tesla-android" name="android-external-mjpg-streamer.git" revision="eb95ee99e86a4e52cd701701159f026b7318d52a" />
-  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="f1f0739d950c129c5b3d96626cd210c0000bcf9c" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="072c5300dd63cc356e337263b3b51629e30bf353" />
+  <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="31c78410637978b7b71accf1e3719658a7a247f0" />
+  <project path="external/tesla-android-virtual-display" remote="tesla-android" name="android-external-tesla-android-virtual-display.git" revision="184a639d6b437f720a201043b17caf9d92f604dd" />
+  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="cd1d06bfd1d2ff9e092e8cf128917b3117b3c16a" />
   <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="25fb3b5e2f10029f3c4113b2094c12d801491d85" />
   <project path="packages/modules/Permission" remote="tesla-android" name="android-modules-permission.git" revision="45108d2abafff65d7445757c823e3e7519cb9699" />
   <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="ee4c84b3a195774b13cf48048f46a2ce3a41ce27" />
