@@ -7,9 +7,6 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/external/crosvm" />
-  <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -19,25 +16,15 @@
   <remove-project name="device/generic/car" />
 
   <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="3ec1e1f898458f8e2f5fd3d76fa04cc783f3fd0d" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="2d8e160e5aeea56d2898061b5e4d5a6eecdb1baa" />
-  <project path="build/soong" remote="tesla-android" name="android-build-soong.git" revision="995954236866a20b6f33885679b34e3cf51b12fa" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="external/crosvm" remote="tesla-android" name="android-external-crosvm.git" revision="32ef5e64d5ef892650a0e2e117e709d6ec7e60cf" />
-  <project path="external/mesa3d" remote="tesla-android" name="android-external-mesa3d.git" revision="47064ca741e9aa971faba7e0ff5d3ae371aef766" />
-  <project path="external/u-boot" remote="tesla-android" name="android-external-u-boot.git" revision="262f6b8f448491e53ad8e3aa73a02063ed558dcb" />
-  <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="a99e8e4e7ef19c736f42df5647212acf73baff49" />
-  <project path="external/mjpg-streamer" remote="tesla-android" name="android-external-mjpg-streamer.git" revision="eb95ee99e86a4e52cd701701159f026b7318d52a" />
-  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="f1f0739d950c129c5b3d96626cd210c0000bcf9c" />
-  <project path="mac-toolchains" remote="tesla-android" name="android-mac-toolchains.git" revision="51ff86a9a048beb8473eb01158ff78c31658f657" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="072c5300dd63cc356e337263b3b51629e30bf353" />
+  <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="31c78410637978b7b71accf1e3719658a7a247f0" />
+  <project path="external/tesla-android-virtual-display" remote="tesla-android" name="android-external-tesla-android-virtual-display.git" revision="184a639d6b437f720a201043b17caf9d92f604dd" />
+  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="cd1d06bfd1d2ff9e092e8cf128917b3117b3c16a" />
   <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="25fb3b5e2f10029f3c4113b2094c12d801491d85" />
   <project path="packages/modules/Permission" remote="tesla-android" name="android-modules-permission.git" revision="45108d2abafff65d7445757c823e3e7519cb9699" />
   <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="ee4c84b3a195774b13cf48048f46a2ce3a41ce27" />
   <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="222f40ebcade3ca14df0f119b45f8b7c9d042aab" />
-
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
-  
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
   <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.1"/>
   <project path="vendor/partner_gms" remote="github" name="lineageos4microg/android_vendor_partner_gms" revision="025565ee540b74f9c42e03255f12a0e3494472e7"/>
