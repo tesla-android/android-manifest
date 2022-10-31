@@ -12,7 +12,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
-
+  
   <remove-project name="device/generic/car" />
 
   <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="3ec1e1f898458f8e2f5fd3d76fa04cc783f3fd0d" />
@@ -24,9 +24,7 @@
   <project path="packages/modules/Permission" remote="tesla-android" name="android-modules-permission.git" revision="45108d2abafff65d7445757c823e3e7519cb9699" />
   <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="ee4c84b3a195774b13cf48048f46a2ce3a41ce27" />
   <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="222f40ebcade3ca14df0f119b45f8b7c9d042aab" />
-
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
-  
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
   <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.1"/>
   <project path="vendor/partner_gms" remote="github" name="lineageos4microg/android_vendor_partner_gms" revision="025565ee540b74f9c42e03255f12a0e3494472e7"/>
