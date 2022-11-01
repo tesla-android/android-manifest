@@ -12,9 +12,11 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/system/core" />
   
   <remove-project name="device/generic/car" />
 
+  <project path="system/core" remote="tesla-android" name="android-system-core.git" revision="23534d1e1ec42a2ea67504398c9eacdf6631961e" />
   <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="3ec1e1f898458f8e2f5fd3d76fa04cc783f3fd0d" />
   <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="072c5300dd63cc356e337263b3b51629e30bf353" />
   <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="31c78410637978b7b71accf1e3719658a7a247f0" />
