@@ -29,5 +29,5 @@
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
   <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.1"/>
-  <project path="vendor/partner_gms" remote="github" name="lineageos4microg/android_vendor_partner_gms" revision="025565ee540b74f9c42e03255f12a0e3494472e7"/>
+  <project path="vendor/partner_gms" remote="github" name="lineageos4microg/android_vendor_partner_gms" revision="d06e04c0960b08c0904e700963fcb05820451688"/>
 </manifest>
