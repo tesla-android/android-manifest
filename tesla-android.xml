@@ -2,6 +2,8 @@
 <manifest>
   <remote name="tesla-android" fetch="https://github.com/tesla-android/" />
   <remote name="github" fetch="https://github.com/" />  
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
 
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
@@ -29,5 +31,9 @@
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
   <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.1"/>
-  <project path="vendor/partner_gms" remote="github" name="lineageos4microg/android_vendor_partner_gms" revision="d06e04c0960b08c0904e700963fcb05820451688"/>
+
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 </manifest>
