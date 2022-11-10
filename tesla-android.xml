@@ -22,7 +22,7 @@
 
   <project path="system/core" remote="tesla-android" name="android-system-core.git" revision="23534d1e1ec42a2ea67504398c9eacdf6631961e" />
   <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="feec792cce47ddcefbdb8eef5f923db9fdb61bdf" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="a5ef314c2ced401afef4e662450fd91ed5c31bc8" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="92f7f45069af7ec2ba362cc78214f8355eecd634" />
   <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="31c78410637978b7b71accf1e3719658a7a247f0" />
   <project path="external/tesla-android-virtual-display" remote="tesla-android" name="android-external-tesla-android-virtual-display.git" revision="d1cac3693e7ad67c6929d6df69ef8ec9e2f0a396" />
   <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="cd1d06bfd1d2ff9e092e8cf128917b3117b3c16a" />
