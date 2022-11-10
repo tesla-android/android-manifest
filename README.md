@@ -26,10 +26,11 @@ mkdir -p TeslaAndroid
 cd TeslaAndroid
 repo init -u https://github.com/tesla-android/android-manifest
 repo sync -cq
+repo forall -c git lfs pull
 ```
 
 ## You should install additional packages in order to build Tesla Android
-(Ubuntu 20.04 LTS is only supported. Building on other distributions can 
+(Ubuntu 22.04 LTS is only supported. Building on other distributions can 
 be done using docker)
 
 <br/>
