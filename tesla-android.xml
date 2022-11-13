@@ -34,7 +34,7 @@
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
   <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.1"/>
-  <project path="external/mesa3d" remote="tesla-android" name="android-external-mesa3d.git" revision="442adff2753f45ba78c38d6efff1f5bde1e5b30d" />
+  <project path="external/mesa3d" remote="tesla-android" name="android-external-mesa3d.git" revision="ff5c7fa4b632fcacabd694805237d6a4dec1901f" />
 
   <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
   <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
