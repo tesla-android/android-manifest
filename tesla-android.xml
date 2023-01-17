@@ -2,44 +2,42 @@
 <manifest>
   <remote name="tesla-android" fetch="https://github.com/tesla-android/" />
   <remote name="github" fetch="https://github.com/" />  
-  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
-  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
+  <remote name="gapps-gitlab" fetch="https://gitlab.com/MindTheGapps"  />
 
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/hardware/broadcom/libbt" />
-  <remove-project name="platform/external/mesa3d" />
-  
+  <remove-project name="platform/hardware/broadcom/libbt" />  
   <remove-project name="device/generic/car" />
+  <remove-project name="platform/external/v4l2_codec2" />
 
-  <project path="system/core" remote="tesla-android" name="android-system-core.git" revision="23534d1e1ec42a2ea67504398c9eacdf6631961e" />
-  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="9f97d46505cf78103b371a50e9824318011a3b7a" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="2dd3fad5e0397371a17a45a413cdd3a8092cd756" />
+  <project path="system/core" remote="tesla-android" name="android-system-core.git" revision="c6721ba31702a27830b3bd98f3e63f1ce1fd34d1" />
+  <project path="kernel/glodroid-broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="021f064e48ebf58607da21172f4b26318c0306fa" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="8c6ca8bf5ad0d8a98ee7116176a93ea5ae672761" />
+  <project path="external/minigbm" remote="tesla-android" name="android-external-minigbm.git" revision="7c4a235a65cc75946eb757f2f382ac91d7f3a6eb" />
+  <project path="external/libws" remote="tesla-android" name="android-external-libws.git" revision="2262847456d7ef862a4397a2014e5c3f06455e4b" />
+  <project path="external/v4l2_codec2" remote="tesla-android" name="android-external-v4l2_codec2.git" revision="0c0e0baf62a222abbbe422019ca109153185775c" />
   <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="31c78410637978b7b71accf1e3719658a7a247f0" />
-  <project path="external/tesla-android-virtual-display" remote="tesla-android" name="android-external-tesla-android-virtual-display.git" revision="d1cac3693e7ad67c6929d6df69ef8ec9e2f0a396" />
-  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="cd1d06bfd1d2ff9e092e8cf128917b3117b3c16a" />
-  <project path="frameworks/native" remote="tesla-android" name="android-frameworks-native.git" revision="169fc9338e7f4b09a150e4bc2e184a78d5fcdd58" />
-  <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="25fb3b5e2f10029f3c4113b2094c12d801491d85" />
-  <project path="packages/modules/Permission" remote="tesla-android" name="android-modules-permission.git" revision="45108d2abafff65d7445757c823e3e7519cb9699" />
-  <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="ee4c84b3a195774b13cf48048f46a2ce3a41ce27" />
-  <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="222f40ebcade3ca14df0f119b45f8b7c9d042aab" />
-  <project path="hardware/broadcom/libbt" remote="tesla-android" name="android-hardware-broadcom-libbt.git" revision="f7daf4ae9ea2d06aa26cae7dac18ff969dc724c7" />
+  <project path="external/tesla-android-virtual-display" remote="tesla-android" name="android-external-tesla-android-virtual-display.git" revision="4e42ccdc8f7b970c3d173228baafd6f7bd4ee77f" />
+  <project path="external/tesla-android-virtual-touchscreen" remote="tesla-android" name="android-external-tesla-android-virtual-touchscreen.git" revision="41fe7e3ffbddb8868eca4429eea47b11cb9cd865" />
+  <project path="frameworks/av" remote="tesla-android" name="android-frameworks-av.git" revision="cfd6fe3940dadde06893eaea6640ea0ed505630b" />
+  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="7255ae02d2a97f15e12ab6387f188461abe597a0" />
+  <project path="frameworks/native" remote="tesla-android" name="android-frameworks-native.git" revision="f8d1b1b8b371a9938238a7d682e704608005641c" />
+  <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="0b8bf9d13c89753309507f220294bee2bd67a6bb" />
+  <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="2ffb7aa900ce31c98f1981fcd6ea2e4bb0905614" />
+  <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="ac7a45f82db69598e0e182570eddbdd412343195" />
+  <project path="hardware/broadcom/libbt" remote="tesla-android" name="android-hardware-broadcom-libbt.git" revision="560ab8cf76ef298ab665a656db3a9332e10202d0" />
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
-  <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-19.1" />
-  <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-19.1"/>
-  <project path="external/mesa3d" remote="tesla-android" name="android-external-mesa3d.git" revision="ff5c7fa4b632fcacabd694805237d6a4dec1901f" />
+  <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-20.0" />
+  <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-20.0"/>
 
-  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <project path="vendor/gapps" remote="gapps-gitlab" name="vendor_gapps.git" revision="tau"/> 
 </manifest>
