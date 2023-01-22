@@ -1,6 +1,6 @@
 # Manifest for Tesla Android
 
-This version is based on Android 12L (Tiramisu), GloDroid version 0.7.1 (https://github.com/GloDroid/glodroid_manifest)
+This version is based on Android 13 (r11), GloDroid version 0.8.1 (https://github.com/GloDroid/glodroid_manifest)
 
 Please refer to https://teslaandroid.com for release notes, hardware requirements and the install guide.
 
