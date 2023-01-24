@@ -26,8 +26,8 @@
   <project path="external/libws" remote="tesla-android" name="android-external-libws.git" revision="2262847456d7ef862a4397a2014e5c3f06455e4b" />
   <project path="external/v4l2_codec2" remote="tesla-android" name="android-external-v4l2_codec2.git" revision="0c0e0baf62a222abbbe422019ca109153185775c" />
   <project path="external/usb-modeswitch" remote="tesla-android" name="android-external-usb-modeswitch.git" revision="31c78410637978b7b71accf1e3719658a7a247f0" />
-  <project path="external/tesla-android-virtual-display" remote="tesla-android" name="android-external-tesla-android-virtual-display.git" revision="4e42ccdc8f7b970c3d173228baafd6f7bd4ee77f" />
-  <project path="external/tesla-android-virtual-touchscreen" remote="tesla-android" name="android-external-tesla-android-virtual-touchscreen.git" revision="41fe7e3ffbddb8868eca4429eea47b11cb9cd865" />
+  <project path="external/tesla-android-virtual-display" remote="tesla-android" name="android-external-tesla-android-virtual-display.git" revision="6057e17323c1be3ef45362a780ad0e0d2db2a91f" />
+  <project path="external/tesla-android-virtual-touchscreen" remote="tesla-android" name="android-external-tesla-android-virtual-touchscreen.git" revision="30e9185ce1dda985309565af0a903caf7ba4cbff" />
   <project path="external/android-external-tesla-android-usb-networking-initialiser" remote="tesla-android" name="android-external-tesla-android-usb-networking-initialiser.git" revision="8d59b70397447a67f3c6a4a95cbd970cc0e4c308" />
   <project path="frameworks/av" remote="tesla-android" name="android-frameworks-av.git" revision="cfd6fe3940dadde06893eaea6640ea0ed505630b" />
   <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="7255ae02d2a97f15e12ab6387f188461abe597a0" />
@@ -37,7 +37,7 @@
   <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="ac7a45f82db69598e0e182570eddbdd412343195" />
   <project path="hardware/broadcom/libbt" remote="tesla-android" name="android-hardware-broadcom-libbt.git" revision="560ab8cf76ef298ab665a656db3a9332e10202d0" />
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
-  <project path="vendor/tesla-android" remote="tesla-android" name="android-vendor-tesla-android.git" revision="a5b49defce4d1983c23a357519d8466b7172f8bc" />
+  <project path="vendor/tesla-android" remote="tesla-android" name="android-vendor-tesla-android.git" revision="77a1d1375513ff0e88fe13157cdfde526ee03497" />
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-20.0" />
   <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-20.0"/>
 
