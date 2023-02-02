@@ -16,14 +16,14 @@
   <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/external/drm_hwcomposer" />
 
-  <!-- ><project path="device/glodroid"                 remote="glodroid" name="glodroid_device.git"        groups="glodroid" revision="refs/tags/v0.8.2" /> -->
+  <!-- <project path="device/glodroid"                 remote="glodroid" name="glodroid_device.git"        groups="glodroid" revision="refs/tags/v0.8.2" /> -->
 
   <project path="glodroid/apks"                   remote="glodroid" name="glodroid_external_apks.git" groups="glodroid" revision="refs/tags/apps-v0.8.2" />
 
   <!-- gpu+display components (vendor) -->
-  <project path="glodroid/vendor/minigbm"         remote="aosp" name="platform/external/minigbm"        groups="glodroid" revision="563bef1bb60e76b2aca671b6c5fd9c14121a9e80" />
-  <project path="glodroid/vendor/drm_hwcomposer"  remote="aosp" name="platform/external/drm_hwcomposer" groups="glodroid" revision="3f85d5009366854f5abe2f627b2883dfb6b33db6" />
-  <project path="glodroid/vendor/mesa3d"          remote="aosp" name="platform/external/mesa3d"         groups="glodroid" revision="35ec06564e947f120556eb550fa4001ea5424e8f" />
+  <project path="glodroid/vendor/minigbm"         remote="aosp" name="platform/external/minigbm"        groups="glodroid" revision="dd9c86425b040a6f0795e4a27f788985d34ece66" />
+  <project path="glodroid/vendor/drm_hwcomposer"  remote="aosp" name="platform/external/drm_hwcomposer" groups="glodroid" revision="2bf68c374976d0a7a0e71c1843cbeae2a3210b74" />
+  <project path="glodroid/vendor/mesa3d"          remote="aosp" name="platform/external/mesa3d"         groups="glodroid" revision="66b438dca11f79a8e54e558a97dc2d10c6b185d2" />
 
   <!-- camera components (vendor) -->
   <project path="glodroid/vendor/libcamera"                     remote="libcamera" name="libcamera.git"      groups="glodroid" revision="ea8ae5afff226f9373c82c1a3185e532d5d6eda0" />
