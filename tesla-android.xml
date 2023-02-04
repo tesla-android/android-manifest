@@ -8,7 +8,7 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   
-  <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="adc5ffde6c65fe45934f68ec1d58cef8c1b8140c" />
+  <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="de72acaeaca767f86032f2a8c243456c8ae9396f" />
   
   <project path="glodroid/kernel/broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="021f064e48ebf58607da21172f4b26318c0306fa" />
   <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="c3f3d73031d108145fcd039278e5c7fe25c7338b" />
@@ -38,7 +38,7 @@
   <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="android-13.0.0_r24" />
 
   <remove-project name="platform/external/v4l2_codec2" />
-  <project path="external/v4l2_codec2" name="android-external-v4l2-codec2" remote="tesla-android" revision="d1102c667205bc6d30f5b1bb516c1389bc4e2fd9" />
+  <project path="external/v4l2_codec2" name="android-external-v4l2-codec2.git" remote="tesla-android" revision="d1102c667205bc6d30f5b1bb516c1389bc4e2fd9" />
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-20.0" />
 
   <project path="external/ffmpeg" name="raspberry-vanilla/android_external_ffmpeg" remote="github" revision="android-13.0" />
