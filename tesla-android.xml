@@ -38,7 +38,7 @@
   <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="android-13.0.0_r24" />
 
   <remove-project name="platform/external/v4l2_codec2" />
-  <project path="external/v4l2_codec2" name="android-external-v4l2-codec2.git" remote="tesla-android" revision="d1102c667205bc6d30f5b1bb516c1389bc4e2fd9" />
+  <project path="external/v4l2_codec2" name="android-external-v4l2_codec2.git" remote="tesla-android" revision="d1102c667205bc6d30f5b1bb516c1389bc4e2fd9" />
   <project path="external/v4l-utils" remote="github" name="lineage-rpi/android_external_v4l-utils.git" revision="lineage-20.0" />
 
   <project path="external/ffmpeg" name="raspberry-vanilla/android_external_ffmpeg" remote="github" revision="android-13.0" />
