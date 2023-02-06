@@ -10,8 +10,8 @@
   
   <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="de72acaeaca767f86032f2a8c243456c8ae9396f" />
   
-  <project path="glodroid/kernel/broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="021f064e48ebf58607da21172f4b26318c0306fa" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="c3f3d73031d108145fcd039278e5c7fe25c7338b" />
+  <project path="glodroid/kernel/broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="b6065214fc1b3d1fefd2fc55d36b7f5a855dcbd9" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="24510fec3b415f12c8c587d9f3f607bf23ac8680" />
 
   <remove-project name="device/generic/car" />
   <project path="external/libws" remote="tesla-android" name="android-external-libws.git" revision="2262847456d7ef862a4397a2014e5c3f06455e4b" />
@@ -23,19 +23,19 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/av" remote="tesla-android" name="android-frameworks-av.git" revision="android-13.0.0_r24" />
-  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="android-13.0.0_r24" />
-  <project path="frameworks/native" remote="tesla-android" name="android-frameworks-native.git" revision="android-13.0.0_r24" />
+  <project path="frameworks/av" remote="tesla-android" name="android-frameworks-av.git" revision="4c6a953e43bbc9619ea2e111edd27bad891bfa92" />
+  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="fc5537f4f1cda607f2525cad4e469ec9ed8e0174" />
+  <project path="frameworks/native" remote="tesla-android" name="android-frameworks-native.git" revision="76a0eb58a240e3b776c68ef23de5a7b29a3ab45c" />
 
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="android-13.0.0_r24" />
+  <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="d0676c09c68bb434bb1b9705ac884cfd973689f3" />
 
-  <project path="packages/apps/Updater" remote="tesla-android" name="android-packages-apps-updater.git" revision="main" />
+  <project path="packages/apps/Updater" remote="tesla-android" name="android-packages-apps-updater.git" revision="6875d14d90427df06db4752859b22fbfc3fe2f16" />
 
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
-  <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="android-13.0.0_r24" />
-  <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="android-13.0.0_r24" />
+  <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="c37c13b243511cc545eaf97d945ca7dd2817e799" />
+  <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="26d02317248d9ea9ace40d790bccfd8ba63192e4" />
 
   <remove-project name="platform/external/v4l2_codec2" />
   <project path="external/v4l2_codec2" name="android-external-v4l2_codec2.git" remote="tesla-android" revision="d1102c667205bc6d30f5b1bb516c1389bc4e2fd9" />
