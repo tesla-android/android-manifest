@@ -8,10 +8,10 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   
-  <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="de72acaeaca767f86032f2a8c243456c8ae9396f" />
+  <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="74c1e0cef599c83ef4549b2560e16e93f7dd6714" />
   
   <project path="glodroid/kernel/broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="b6065214fc1b3d1fefd2fc55d36b7f5a855dcbd9" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="c4a7a2f8d99e9ed993c5031fed8027130438a77b" />
+  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="ceb4590a1223ef424d40c33bab0b918fb0782e5e" />
 
   <remove-project name="device/generic/car" />
   <project path="external/libws" remote="tesla-android" name="android-external-libws.git" revision="2262847456d7ef862a4397a2014e5c3f06455e4b" />
@@ -25,7 +25,7 @@
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/av" remote="tesla-android" name="android-frameworks-av.git" revision="1d0ffe9571572d7850294f11c45613873efe4d0c" />
   <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="9aeb1ba95fe93bf68f5847d7bfd2e1099974f881" />
-  <project path="frameworks/native" remote="tesla-android" name="android-frameworks-native.git" revision="76a0eb58a240e3b776c68ef23de5a7b29a3ab45c" />
+  <project path="frameworks/native" remote="tesla-android" name="android-frameworks-native.git" revision="c4442d2e7eddec154316e8e0955e40336097a713" />
 
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="e0b749bc0c6c1fab3bbcc79cc78ebe2b2f7fa430" />
@@ -44,7 +44,7 @@
   <project path="external/ffmpeg" name="raspberry-vanilla/android_external_ffmpeg" remote="github" revision="android-13.0" />
   <project path="external/ffmpeg_codec2" name="raspberry-vanilla/android_external_ffmpeg_codec2" remote="github" revision="android-13.0" />
 
-  <project path="vendor/tesla-android" remote="tesla-android" name="android-vendor-tesla-android.git" revision="ec67417c1dfcfc55097dbf324dea1ee70c0ce3fb" />
+  <project path="vendor/tesla-android" remote="tesla-android" name="android-vendor-tesla-android.git" revision="ac741ed5e53824d0317b8a7ab5a87d6995f60f34" />
 
   <project path="packages/apps/Jelly" remote="github" name="LineageOS/android_packages_apps_Jelly" revision="lineage-20.0"/>
 
