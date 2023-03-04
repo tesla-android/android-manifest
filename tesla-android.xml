@@ -7,11 +7,6 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
-  
-  <project path="vendor/brcm/rpi4" remote="tesla-android" name="android-vendor-brcm-rpi4.git" revision="74c1e0cef599c83ef4549b2560e16e93f7dd6714" />
-  
-  <project path="glodroid/kernel/broadcom" remote="tesla-android" name="android-kernel-broadcom.git" revision="6ae3b9d85bac503d4466b027371c5da9f5c8ca76" />
-  <project path="device/glodroid" remote="tesla-android" name="android-device-glodroid.git" revision="e187e476d6266ff0d7b3c58778e723dfc0143af5" />
 
   <remove-project name="device/generic/car" />
   <project path="external/libws" remote="tesla-android" name="android-external-libws.git" revision="2262847456d7ef862a4397a2014e5c3f06455e4b" />

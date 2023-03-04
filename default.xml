@@ -2,7 +2,7 @@
 <manifest>
 
   <include name="aosp.xml" />
-  <include name="glodroid.xml" />
+  <include name="raspberry-vanilla.xml" />
   <include name="tesla-android.xml" />
 
 </manifest>
