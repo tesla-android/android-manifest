@@ -18,19 +18,19 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/av" remote="tesla-android" name="android-frameworks-av.git" revision="1d0ffe9571572d7850294f11c45613873efe4d0c" />
-  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="9aeb1ba95fe93bf68f5847d7bfd2e1099974f881" />
-  <project path="frameworks/native" remote="tesla-android" name="android-frameworks-native.git" revision="c4442d2e7eddec154316e8e0955e40336097a713" />
+  <project path="frameworks/av" remote="tesla-android" name="android-frameworks-av.git" revision="android-13.0.0_r35" />
+  <project path="frameworks/base" remote="tesla-android" name="android-frameworks-base.git" revision="android-13.0.0_r35" />
+  <project path="frameworks/native" remote="tesla-android" name="android-frameworks-native.git" revision="android-13.0.0_r35" />
 
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="e0b749bc0c6c1fab3bbcc79cc78ebe2b2f7fa430" />
+  <project path="packages/apps/Settings" remote="tesla-android" name="android-packages-apps-settings.git" revision="android-13.0.0_r35" />
 
   <project path="packages/apps/Updater" remote="tesla-android" name="android-packages-apps-updater.git" revision="6875d14d90427df06db4752859b22fbfc3fe2f16" />
 
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Wifi" />
-  <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="b1f234cfcc0be68e8b25f404531d663e9b44a6a2" />
-  <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="501d23d4b8c52742ac0e0bd1dc30bb6b8a7508d1" />
+  <project path="packages/modules/Connectivity" remote="tesla-android" name="android-packages-modules-connectivity.git" revision="android-13.0.0_r35" />
+  <project path="packages/modules/Wifi" remote="tesla-android" name="android-packages-modules-wifi.git" revision="android-13.0.0_r35" />
 
   <remove-project name="platform/external/v4l2_codec2" />
   <project path="external/v4l2_codec2" name="android-external-v4l2_codec2.git" remote="tesla-android" revision="d1102c667205bc6d30f5b1bb516c1389bc4e2fd9" />
